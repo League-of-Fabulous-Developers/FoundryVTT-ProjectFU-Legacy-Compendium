@@ -1,0 +1,24 @@
+{
+  "name": "foundryvtt-projectfu-legacy-compendium",
+  "version": "1.0.0",
+  "description": "A module to archive older versions of classes and skills from prior to the 1.1 errata.",
+  "homepage": "https://github.com/League-of-Fabulous-Developers/FoundryVTT-ProjectFU-Legacy-Compendium#readme",
+  "bugs": {
+    "url": "https://github.com/League-of-Fabulous-Developers/FoundryVTT-ProjectFU-Legacy-Compendium/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/League-of-Fabulous-Developers/FoundryVTT-ProjectFU-Legacy-Compendium.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "module/module.mjs",
+  "scripts": {
+    "unpack": "node ./tools/pushLDBtoYML.mjs",
+    "pack": "node ./tools/pullYMLtoLDB.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}
