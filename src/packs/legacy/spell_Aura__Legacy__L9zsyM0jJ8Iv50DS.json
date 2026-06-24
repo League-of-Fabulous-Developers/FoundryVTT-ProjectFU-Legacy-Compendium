@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "ra291GP4JWjCrPaB",
   "name": "Aura [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spells/aura.png",
@@ -104,8 +104,11 @@
     "fuid": "aura-legacy",
     "effects": {
       "entries": [
-        "aura"
-      ]
+        "Compendium.projectfu-legacy-compendium.legacy.Item.EihPEwNs6izcdSio"
+      ],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -144,10 +147,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768686933967,
-    "modifiedTime": 1768694692753,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361284059,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "L9zsyM0jJ8Iv50DS",
-  "sort": 1000000,
+  "sort": 100000,
   "_key": "!items!L9zsyM0jJ8Iv50DS"
 }

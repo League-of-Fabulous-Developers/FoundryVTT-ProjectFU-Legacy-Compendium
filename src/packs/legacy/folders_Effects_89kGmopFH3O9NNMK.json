@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "hzejE1bzhKTq4j3S",
+  "name": "Effects",
+  "color": "#145450",
+  "sorting": "a",
+  "_id": "89kGmopFH3O9NNMK",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!89kGmopFH3O9NNMK"
+}

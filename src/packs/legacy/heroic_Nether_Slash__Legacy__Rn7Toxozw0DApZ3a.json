@@ -6,7 +6,7 @@
     "summary": {
       "value": "Converts Shadow Strike into fire or ice."
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered one or more Classes among <strong>Darkblade</strong>, <strong>Elementalist</strong> and <strong>Pilot</strong>, and have acquired the <strong>Shadow Strike</strong> Skill.</p></blockquote><p>When you use the <strong>Shadow Strike</strong> Skill, you may choose <strong>fire</strong> or <strong>ice</strong>. If you do, all damage dealt by this attack becomes of the chosen type instead of <strong>dark</strong> (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.</p><p>When you perform a <strong>free attack</strong> with a <strong>melee</strong> weapon as part of the <strong>Shadow Strike</strong> Skill, the attack may target enemies that can only be targeted by a <strong>ranged</strong> attack.</p>",
+    "description": "<p><strong>Requirements:</strong> you must have mastered one or more Classes among <strong>Darkblade</strong>, <strong>Elementalist</strong> and <strong>Pilot</strong>, and have acquired the <strong>Shadow Strike</strong> Skill.</p><hr /><p>When you use the <strong>Shadow Strike</strong> Skill, you may choose <strong>fire</strong> or <strong>ice</strong>. If you do, all damage dealt by this attack becomes of the chosen type instead of <strong>dark</strong> (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.</p><p>When you perform a <strong>free attack</strong> with a <strong>melee</strong> weapon as part of the <strong>Shadow Strike</strong> Skill, the attack may target enemies that can only be targeted by a <strong>ranged</strong> attack.</p>",
     "class": {
       "value": "darkblade, elementalist, pilot"
     },
@@ -39,6 +39,9 @@
       "duration": {
         "interval": null
       }
+    },
+    "targeting": {
+      "rule": "self"
     }
   },
   "effects": [],
@@ -56,7 +59,7 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1769015404602,
-    "modifiedTime": 1775355585055,
+    "modifiedTime": 1782362202904,
     "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "folder": "nlJCekCcdyb2RFPe",

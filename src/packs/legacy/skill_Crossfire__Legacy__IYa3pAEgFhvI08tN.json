@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "ngBnRgEqeTVX4Ou3",
   "name": "Crossfire [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_crossfire.png",
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -200,10 +203,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768582218288,
-    "modifiedTime": 1769011812494,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361058504,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "IYa3pAEgFhvI08tN",
-  "sort": 500000,
+  "sort": 100000,
   "_key": "!items!IYa3pAEgFhvI08tN"
 }

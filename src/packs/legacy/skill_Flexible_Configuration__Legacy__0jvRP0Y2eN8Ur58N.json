@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "LrDTxCGaQCYh4Mfo",
   "name": "Flexible Configuration [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/pilot/pilot_flexible_configuration.png",
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -93,10 +96,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1769013248123,
-    "modifiedTime": 1769013260931,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361030427,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "0jvRP0Y2eN8Ur58N",
-  "sort": 6250,
+  "sort": 100000,
   "_key": "!items!0jvRP0Y2eN8Ur58N"
 }

@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "YorgEVUphyfZQcyj",
   "name": "Soaring Strike [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/soaring_strike.png",
@@ -142,10 +142,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768577479435,
-    "modifiedTime": 1768579355349,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284498210,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "tjwJJozZ9iAuvrmk",
-  "sort": 400000,
+  "sort": 200000,
   "_key": "!items!tjwJJozZ9iAuvrmk"
 }

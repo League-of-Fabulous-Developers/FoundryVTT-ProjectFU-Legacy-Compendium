@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "ra291GP4JWjCrPaB",
   "name": "Barrier [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spells/barrier.png",
@@ -104,8 +104,11 @@
     "fuid": "barrier-legacy",
     "effects": {
       "entries": [
-        "barrier"
-      ]
+        "Compendium.projectfu-legacy-compendium.legacy.Item.kTFHNSmJQn0ej7JI"
+      ],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -144,10 +147,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768686934861,
-    "modifiedTime": 1771473207697,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361333678,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "VfcZ0xn4PhUpbD1L",
-  "sort": 1100000,
+  "sort": 200000,
   "_key": "!items!VfcZ0xn4PhUpbD1L"
 }

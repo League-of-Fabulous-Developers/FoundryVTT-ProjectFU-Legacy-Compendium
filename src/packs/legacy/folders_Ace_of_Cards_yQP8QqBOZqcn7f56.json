@@ -2,7 +2,7 @@
   "type": "Item",
   "folder": "rPrp9QRfOtEloqMP",
   "name": "Ace of Cards",
-  "color": null,
+  "color": "#bb1e1e",
   "sorting": "a",
   "_id": "yQP8QqBOZqcn7f56",
   "description": "",
@@ -15,7 +15,8 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "lastModifiedBy": null
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782281027972
   },
   "_key": "!folders!yQP8QqBOZqcn7f56"
 }

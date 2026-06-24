@@ -1,7 +1,7 @@
 {
   "name": "Ambidextrous [Legacy]",
   "type": "heroic",
-  "img": "icons/skills/melee/weapons-crossed-daggers-orange.webp",
+  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
   "system": {
     "subtype": {
       "value": "skill"
@@ -30,7 +30,19 @@
       "max": 6,
       "enabled": false
     },
-    "fuid": "ambidextrous-legacy"
+    "fuid": "ambidextrous-legacy",
+    "damage": {
+      "onRoll": "",
+      "onApply": ""
+    },
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    },
+    "targeting": {
+      "rule": "self"
+    }
   },
   "effects": [],
   "folder": "nlJCekCcdyb2RFPe",
@@ -53,8 +65,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768852986991,
-    "modifiedTime": 1768853053812,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361804859,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "jm1tAjELdcT81qFb",
   "sort": 100000,

@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "hzejE1bzhKTq4j3S",
   "name": "Healing Power [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_healing_power.png",
@@ -54,12 +54,15 @@
     "defense": "def",
     "fuid": "healing-power-legacy",
     "resource": {
-      "enabled": false,
-      "amount": "",
+      "enabled": true,
+      "amount": "$sl*$bc",
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -191,10 +194,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768583504673,
-    "modifiedTime": 1769011837032,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361474323,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "B7Pnyr7RDijlXQzv",
-  "sort": 150000,
+  "sort": 100000,
   "_key": "!items!B7Pnyr7RDijlXQzv"
 }

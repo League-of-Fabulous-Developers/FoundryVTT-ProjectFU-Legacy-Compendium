@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "NgkHzUUDQth731iS",
   "name": "Cataclysm [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_cataclysm.png",
@@ -64,17 +64,20 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
   },
   "effects": [
     {
-      "name": "Cataclysm",
+      "name": "Cataclysm [Legacy]",
       "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_cataclysm.png",
       "system": {
         "duration": {
@@ -99,7 +102,8 @@
                 "damageSources": [
                   "spell"
                 ],
-                "damageTypes": []
+                "damageTypes": [],
+                "identifier": ""
               },
               "predicates": {
                 "3i8OFA8Qwk5Lqqz5": {
@@ -108,7 +112,7 @@
                   "categories": [
                     "arcane"
                   ],
-                  "selector": "initial",
+                  "selector": "self",
                   "martial": "",
                   "handedness": "",
                   "weaponType": ""
@@ -116,7 +120,7 @@
                 "hBGetuaUyjiB9K3S": {
                   "type": "spellRulePredicate",
                   "_id": "hBGetuaUyjiB9K3S",
-                  "offensive": "true",
+                  "offensive": "",
                   "duration": "instantaneous"
                 }
               },
@@ -149,6 +153,11 @@
             "max": 6,
             "style": "basic",
             "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
           }
         }
       },
@@ -160,7 +169,7 @@
       "_id": "Dd03wzpbYRkqDcq9",
       "type": "base",
       "changes": [],
-      "description": "",
+      "description": "<p>When you cast an <strong>instantaneous</strong> spell, if you have an <strong>arcane</strong> weapon equipped, you may increase the spell's total MP cost by up to <strong>【SL × 10】</strong> Mind Points. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.</p>",
       "origin": null,
       "tint": "#ffffff",
       "transfer": true,
@@ -174,7 +183,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782284461457
       },
       "_key": "!items.effects!CqKOA44xiWUAd11c.Dd03wzpbYRkqDcq9"
     }
@@ -199,10 +209,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768575907563,
-    "modifiedTime": 1768620191779,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284345398,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "CqKOA44xiWUAd11c",
-  "sort": 1000000,
+  "sort": 100000,
   "_key": "!items!CqKOA44xiWUAd11c"
 }

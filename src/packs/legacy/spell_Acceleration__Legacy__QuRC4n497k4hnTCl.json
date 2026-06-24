@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "TmXy7vIweftPA3xh",
   "name": "Acceleration [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/entropist/spells/acceleration.png",
@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>You bend the fabric of time. Until this spell ends, the target gains the ability to perform a single additional action during each of their turns. Once the target has performed a total of two additional actions granted by this spell, this spell ends.</p><hr /><ul><li><p><strong>Target Receives</strong>: @EFFECT[Compendium.projectfu.legacy.Item.Sjz54lLSHPwLz9Ue]{Effect: Acceleration [Legacy]}</p></li></ul>",
+    "description": "<p>You bend the fabric of time. Until this spell ends, the target gains the ability to perform a single additional action during each of their turns. Once the target has performed a total of two additional actions granted by this spell, this spell ends.</p>",
     "showTitleCard": {
       "value": false
     },
@@ -117,7 +117,12 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [
+        "Compendium.projectfu-legacy-compendium.legacy.Item.Sjz54lLSHPwLz9Ue"
+      ],
+      "duration": {
+        "interval": null
+      }
     },
     "traits": []
   },
@@ -142,10 +147,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768578183574,
-    "modifiedTime": 1768579355349,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782360627651,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "QuRC4n497k4hnTCl",
-  "sort": 700000,
+  "sort": 100000,
   "_key": "!items!QuRC4n497k4hnTCl"
 }

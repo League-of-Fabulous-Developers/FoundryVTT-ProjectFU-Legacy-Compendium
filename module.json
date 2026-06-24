@@ -41,6 +41,25 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "label": "Legacy Handouts",
+      "type": "JournalEntry",
+      "name": "legacy-handouts",
+      "path": "packs/legacy-handouts",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Legacy",
+      "sorting": "a",
+      "color": "#454c4f",
+      "packs": ["legacy","legacy-handouts"]
     }
   ],
   "url": "#{URL}#",

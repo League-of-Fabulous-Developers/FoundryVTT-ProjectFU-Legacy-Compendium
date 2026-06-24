@@ -12,7 +12,7 @@
       "min": 0
     },
     "class": {
-      "value": "necromancer"
+      "value": "necromancer-legacy"
     },
     "useWeapon": {
       "accuracy": false,
@@ -57,7 +57,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -65,7 +68,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -87,8 +90,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1769024164150,
-    "modifiedTime": 1769024240071,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782282670688,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "folder": "8lW5YyWxQ1X625X8",
   "ownership": {

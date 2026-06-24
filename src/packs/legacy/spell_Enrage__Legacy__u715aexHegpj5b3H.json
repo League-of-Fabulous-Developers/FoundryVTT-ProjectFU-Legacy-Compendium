@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "ra291GP4JWjCrPaB",
   "name": "Enrage [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spells/enrage.png",
@@ -104,8 +104,12 @@
     "fuid": "enrage-legacy",
     "effects": {
       "entries": [
-        "enraged"
-      ]
+        "enraged",
+        "Compendium.projectfu-legacy-compendium.legacy.Item.YUs3Crp1RmD3mOUH"
+      ],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -144,10 +148,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768686942397,
-    "modifiedTime": 1771473187198,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361408004,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "u715aexHegpj5b3H",
-  "sort": 900000,
+  "sort": 300000,
   "_key": "!items!u715aexHegpj5b3H"
 }

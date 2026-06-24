@@ -1,8 +1,8 @@
 {
-  "folder": "nlJCekCcdyb2RFPe",
+  "folder": "FdOwwIeNBA4oZBbq",
   "name": "Effect: Vanish [Legacy]",
   "type": "effect",
-  "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+  "img": "icons/equipment/head/hood-cowl-mask-purple.webp",
   "system": {
     "fuid": "effect-vanish-legacy",
     "cost": {
@@ -12,7 +12,7 @@
   },
   "effects": [
     {
-      "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+      "img": "icons/equipment/head/hood-cowl-mask-purple.webp",
       "duration": {
         "rounds": 1,
         "startTime": null,
@@ -23,7 +23,7 @@
         "startTurn": null
       },
       "disabled": false,
-      "name": "Effect: Vanish",
+      "name": "Vanish [Legacy]",
       "_id": "Ou7wNw2hFLOjgg5w",
       "type": "base",
       "system": {
@@ -38,7 +38,20 @@
           "remaining": 1
         },
         "rules": {
-          "elements": {}
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
         }
       },
       "changes": [],
@@ -56,7 +69,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782362379536
       },
       "_key": "!items.effects!Eq1PRsGKfDdo5ZDV.Ou7wNw2hFLOjgg5w"
     }
@@ -75,10 +89,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768876099928,
-    "modifiedTime": 1771473301065,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782362375577,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "Eq1PRsGKfDdo5ZDV",
-  "sort": 300000,
+  "sort": 200000,
   "_key": "!items!Eq1PRsGKfDdo5ZDV"
 }

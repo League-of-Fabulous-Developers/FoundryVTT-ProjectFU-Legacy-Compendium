@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "p54OTwOPW9VIuxvw",
   "name": "Soul Steal [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/rogue/rogue_soul_steal.png",
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "single",
       "max": 0
     },
     "traits": []
@@ -246,10 +249,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768582009403,
-    "modifiedTime": 1769011850573,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361041177,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "I4ZhNHfqLpJ0zJVg",
-  "sort": 300000,
+  "sort": 100000,
   "_key": "!items!I4ZhNHfqLpJ0zJVg"
 }
