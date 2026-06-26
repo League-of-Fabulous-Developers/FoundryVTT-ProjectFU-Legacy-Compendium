@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "rPrp9QRfOtEloqMP",
+  "name": "Fury",
+  "color": "#a22f2f",
+  "sorting": "a",
+  "_id": "OvRfuv3pbr2o6THd",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782283496771
+  },
+  "_key": "!folders!OvRfuv3pbr2o6THd"
+}

@@ -1,0 +1,109 @@
+{
+  "folder": "3KQzrABc3jPHjJX9",
+  "name": "Gadgets [Legacy]",
+  "type": "skill",
+  "img": "systems/projectfu/styles/static/compendium/classes/tinkerer/tinkerer_gadgets.png",
+  "system": {
+    "summary": {
+      "value": ""
+    },
+    "description": "<p>When you first acquire this Skill, choose a gadget type: <strong>alchemy, infusion</strong>, or <strong>magitech</strong>. You gain its <strong>basic benefits</strong>.</p><p>Whenever you take this Skill again, choose one option: you gain the <strong>basic benefits</strong> of a new gadget type; <strong>or</strong> you gain the <strong>advanced benefits</strong> of a gadget type whose <strong>basic benefits</strong> you already obtained; <strong>or</strong> you gain the <strong>superior benefits</strong> of a gadget type whose <strong>advanced benefits</strong> you already obtained.</p><hr /><p><strong>Gadget Features:</strong> @UUID[Compendium.projectfu-legacy-compendium.legacy.Item.eFQmBu28YTg5hvwQ] @UUID[Compendium.projectfu.skills.Item.1tfYFkiXLuTOUmre] @UUID[Compendium.projectfu-legacy-compendium.legacy.Item.d9CunFT4NiNRfEMY] </p>",
+    "showTitleCard": {
+      "value": false
+    },
+    "level": {
+      "value": 1,
+      "max": 5,
+      "min": 0
+    },
+    "class": {
+      "value": "tinkerer"
+    },
+    "useWeapon": {
+      "accuracy": false,
+      "damage": false,
+      "traits": true
+    },
+    "attributes": {
+      "primary": "mig",
+      "secondary": "mig"
+    },
+    "accuracy": "0",
+    "damage": {
+      "hasDamage": false,
+      "value": 0,
+      "type": "physical",
+      "onRoll": "",
+      "onApply": "",
+      "hrZero": false
+    },
+    "source": "FUCR211",
+    "hasRoll": {
+      "value": false
+    },
+    "hasResource": {
+      "value": false
+    },
+    "rp": {
+      "name": "Name",
+      "current": 0,
+      "step": 1,
+      "max": 6,
+      "enabled": false
+    },
+    "defense": "def",
+    "fuid": "gadgets-legacy",
+    "targeting": {
+      "rule": "self",
+      "max": 0
+    },
+    "effects": {
+      "duration": {
+        "interval": null,
+        "event": "",
+        "tracking": ""
+      },
+      "entries": [],
+      "prompt": false
+    },
+    "traits": [],
+    "cost": {
+      "resource": "mp",
+      "amount": "",
+      "perTarget": false
+    },
+    "resource": {
+      "enabled": false,
+      "amount": "",
+      "type": "hp"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 2,
+    "hYECXwi6O8UUBuN4": 3,
+    "BwRsFvMHAq9vUtEO": 3,
+    "mA8SNY2rY4X5tOHa": 3
+  },
+  "flags": {
+    "core": {},
+    "projectfu": {
+      "favorite": false,
+      "classConverted": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "createdTime": 1782361538741,
+    "modifiedTime": 1782361639475,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
+  },
+  "_id": "tKDLm3CEjrkVUw9F",
+  "sort": 0,
+  "_key": "!items!tKDLm3CEjrkVUw9F"
+}

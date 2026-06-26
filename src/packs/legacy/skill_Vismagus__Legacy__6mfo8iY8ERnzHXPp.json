@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "hzejE1bzhKTq4j3S",
   "name": "Vismagus [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/spiritist/spiritist_vismagus.png",
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -93,10 +96,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768686834143,
-    "modifiedTime": 1768686898947,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782361491830,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "6mfo8iY8ERnzHXPp",
-  "sort": 125000,
+  "sort": 200000,
   "_key": "!items!6mfo8iY8ERnzHXPp"
 }

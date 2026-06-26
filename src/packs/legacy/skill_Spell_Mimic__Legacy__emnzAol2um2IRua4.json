@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "yrUIPWji6I6Dat5u",
   "name": "Spell Mimic [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/chimerist/chimerist_spell_mimic.png",
@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you see a creature belonging to the <strong>beast</strong>, <strong>monster</strong>, or <strong>plant</strong> Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record the <strong>Species</strong> of the creature you learned it from.</p><p>When you first acquire this Skill, choose <strong>【INS + WLP】</strong> or <strong>【MIG + WLP】</strong>. From now on, your offensive ( @ICON[offensive] ) Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from.</p><p>You may have up to <strong>【SL + 2】</strong> different Chimerist spells memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell.</p>",
+    "description": "<p>When you see a creature belonging to the <strong>beast</strong>, <strong>monster</strong>, or <strong>plant</strong> Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record the <strong>Species</strong> of the creature you learned it from.</p><p>When you first acquire this Skill, choose <strong>【INS + WLP】</strong> or <strong>【MIG + WLP】</strong>. From now on, your offensive (@ICON[offensive]) Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from.</p><p>You may have up to <strong>【SL + 2】</strong> different Chimerist spells memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell.</p>",
     "showTitleCard": {
       "value": false
     },
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -184,10 +187,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768575422769,
-    "modifiedTime": 1768620191779,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782283959349,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "emnzAol2um2IRua4",
-  "sort": 1200000,
+  "sort": 100000,
   "_key": "!items!emnzAol2um2IRua4"
 }

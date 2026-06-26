@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "znNVlHhH1yMiu1A1",
   "name": "Agony [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/darkblade/darkblade_agony.png",
@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>After you deal damage to one or more creatures, if you have a <strong>Bond</strong> towards at least one of those creatures, you may recover <strong>【SL × 2】</strong> Hit Points and <strong>【SL × 2】</strong> Mind Points.</p><hr /><ul><li><p><strong>You</strong>: @GAIN[$sl*2 hp] @GAIN[$sl*2 mp]</p></li></ul>",
+    "description": "<p>After you deal damage to one or more creatures, if you have a <strong>Bond</strong> towards at least one of those creatures, you may recover <strong>【SL × 2】</strong> Hit Points and <strong>【SL × 2】</strong> Mind Points.</p><hr /><p><strong>You Recover</strong>: @GAIN[$sl*2 hp]{SL × 2 HP} @GAIN[$sl*2 mp]{SL × 2 MP}</p>",
     "showTitleCard": {
       "value": false
     },
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,14 +70,14 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
   },
   "effects": [
     {
-      "name": "Agony",
+      "name": "Agony [Legacy]",
       "img": "systems/projectfu/styles/static/compendium/classes/darkblade/darkblade_agony.png",
       "system": {
         "duration": {
@@ -149,7 +152,7 @@
                 "Ih8IlZNuYlq4PD3G": {
                   "type": "messageRuleAction",
                   "_id": "Ih8IlZNuYlq4PD3G",
-                  "message": ""
+                  "message": "<p>If you damage one or more <strong>Bond</strong> creatures, you may recover <strong>【SL × 2】</strong> HP & MP.</p>"
                 }
               },
               "selector": "self",
@@ -164,6 +167,11 @@
             "max": 6,
             "style": "basic",
             "step": 1
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
           }
         }
       },
@@ -175,7 +183,7 @@
       "_id": "3CjUfXdmW7p1L7tJ",
       "type": "base",
       "changes": [],
-      "description": "",
+      "description": "<p>After you deal damage to one or more creatures, if you have a <strong>Bond</strong> towards at least one of those creatures, you may recover <strong>【SL × 2】</strong> Hit Points and <strong>【SL × 2】</strong> Mind Points.</p>",
       "origin": null,
       "tint": "#ffffff",
       "transfer": true,
@@ -189,7 +197,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782284286916
       },
       "_key": "!items.effects!m42VHnl5khz0yHbG.3CjUfXdmW7p1L7tJ"
     }
@@ -214,10 +223,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768575738596,
-    "modifiedTime": 1769011984573,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284064526,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "m42VHnl5khz0yHbG",
-  "sort": 800000,
+  "sort": 100000,
   "_key": "!items!m42VHnl5khz0yHbG"
 }

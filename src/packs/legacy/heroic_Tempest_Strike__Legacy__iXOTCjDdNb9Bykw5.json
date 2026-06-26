@@ -1,7 +1,7 @@
 {
   "name": "Tempest Strike [Legacy]",
   "type": "heroic",
-  "img": "icons/skills/melee/weapons-crossed-swords-purple.webp",
+  "img": "icons/skills/melee/strikes-sword-scimitar.webp",
   "system": {
     "subtype": {
       "value": "skill"
@@ -9,7 +9,7 @@
     "summary": {
       "value": "Concentrate multi attacks on a single target."
     },
-    "description": "<blockquote><p><span>Requirements: you must have mastered the <strong>Weaponmaster</strong> Class.</span></p></blockquote><p><span>When you perform a <strong>melee</strong> attack with the <strong>multi</strong> property, if you choose to target only one creature, the attack deals 5 extra damage if the attack had <strong>multi (2)</strong>, or 10 extra damage if the attack had <strong>multi (3 or higher)</strong>.</span></p>",
+    "description": "<p><span><strong>Requirements:</strong> you must have mastered the <strong>Weaponmaster</strong> Class.</span></p><hr /><p><span>When you perform a <strong>melee</strong> attack with the <strong>multi</strong> property, if you choose to target only one creature, the attack deals 5 extra damage if the attack had <strong>multi (2)</strong>, or 10 extra damage if the attack had <strong>multi (3 or higher)</strong>.</span></p>",
     "showTitleCard": {
       "value": false
     },
@@ -30,7 +30,19 @@
       "max": 6,
       "enabled": false
     },
-    "fuid": "tempest-strike-legacy"
+    "fuid": "tempest-strike-legacy",
+    "damage": {
+      "onRoll": "",
+      "onApply": ""
+    },
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    },
+    "targeting": {
+      "rule": "self"
+    }
   },
   "effects": [
     {
@@ -85,7 +97,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782362463159
       },
       "_key": "!items.effects!iXOTCjDdNb9Bykw5.OszmOSMgr5pWc5ys"
     },
@@ -166,8 +179,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768875626740,
-    "modifiedTime": 1768875784630,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782362459720,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "iXOTCjDdNb9Bykw5",
   "sort": 25000,

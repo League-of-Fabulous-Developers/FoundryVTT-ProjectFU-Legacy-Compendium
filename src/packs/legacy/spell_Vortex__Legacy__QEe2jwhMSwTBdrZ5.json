@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "YorgEVUphyfZQcyj",
   "name": "Vortex [Legacy]",
   "type": "spell",
   "img": "systems/projectfu/styles/static/compendium/classes/elementalist/spells/vortex.png",
@@ -142,10 +142,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768577678398,
-    "modifiedTime": 1768579355349,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284497316,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "QEe2jwhMSwTBdrZ5",
-  "sort": 800000,
+  "sort": 100000,
   "_key": "!items!QEe2jwhMSwTBdrZ5"
 }

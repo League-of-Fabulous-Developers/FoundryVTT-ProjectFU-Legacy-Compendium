@@ -1,10 +1,10 @@
 {
   "type": "Item",
-  "folder": null,
-  "name": "Skills",
-  "color": null,
+  "folder": "rPrp9QRfOtEloqMP",
+  "name": "Chimerist",
+  "color": "#72714f",
   "sorting": "a",
-  "_id": "IiIlJG6pPTDD4KFq",
+  "_id": "yrUIPWji6I6Dat5u",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -15,9 +15,8 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "createdTime": 1768577892084,
-    "modifiedTime": 1768577892084,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782283467551
   },
-  "_key": "!folders!IiIlJG6pPTDD4KFq"
+  "_key": "!folders!yrUIPWji6I6Dat5u"
 }

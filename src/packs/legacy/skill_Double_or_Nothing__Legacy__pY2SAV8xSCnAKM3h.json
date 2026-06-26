@@ -17,7 +17,7 @@
       "min": 0
     },
     "class": {
-      "value": "ace-of-cards"
+      "value": "ace-of-cards-legacy"
     },
     "useWeapon": {
       "accuracy": false,
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -94,8 +97,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1769016499590,
-    "modifiedTime": 1769016635037,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782282600258,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "pY2SAV8xSCnAKM3h",
   "sort": 500000,

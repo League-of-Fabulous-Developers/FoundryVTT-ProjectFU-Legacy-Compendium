@@ -2,7 +2,7 @@
   "type": "Item",
   "folder": null,
   "name": "Items",
-  "color": null,
+  "color": "#b27c10",
   "sorting": "a",
   "_id": "LksdQtrn5nFuOO3i",
   "description": "",
@@ -16,8 +16,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768876712168,
-    "modifiedTime": 1768876712168,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782283404493,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_key": "!folders!LksdQtrn5nFuOO3i"
 }

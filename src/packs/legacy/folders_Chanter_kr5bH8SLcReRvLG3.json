@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "rPrp9QRfOtEloqMP",
+  "name": "Chanter",
+  "color": "#707b28",
+  "sorting": "a",
+  "_id": "kr5bH8SLcReRvLG3",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782283461366
+  },
+  "_key": "!folders!kr5bH8SLcReRvLG3"
+}

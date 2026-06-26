@@ -2,7 +2,7 @@
   "type": "Item",
   "folder": "rPrp9QRfOtEloqMP",
   "name": "Necromancer",
-  "color": null,
+  "color": "#363e52",
   "sorting": "a",
   "_id": "8lW5YyWxQ1X625X8",
   "description": "",
@@ -15,7 +15,8 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "lastModifiedBy": null
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782281052532
   },
   "_key": "!folders!8lW5YyWxQ1X625X8"
 }

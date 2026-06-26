@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "rPrp9QRfOtEloqMP",
+  "name": "Rogue",
+  "color": "#ad4d48",
+  "sorting": "a",
+  "_id": "p54OTwOPW9VIuxvw",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "projectfu",
+    "systemVersion": "#{VERSION}#",
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782283520339
+  },
+  "_key": "!folders!p54OTwOPW9VIuxvw"
+}

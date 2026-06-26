@@ -1,7 +1,7 @@
 {
   "name": "Vanish [Legacy]",
   "type": "heroic",
-  "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+  "img": "icons/equipment/head/hood-cowl-mask-purple.webp",
   "system": {
     "subtype": {
       "value": "skill"
@@ -9,7 +9,7 @@
     "summary": {
       "value": "Disappear after an attack."
     },
-    "description": "<blockquote><p><strong>Requirements:</strong> you must have mastered the <strong>Rogue</strong> Class.</p></blockquote><p><span>When you hit one or more creatures with an attack, you may spend 1 Fabula Point. If you do, each of those creatures will be unable to perform any action that requires them to be able to see you until the start of your next turn.</span></p><hr /><ul><li><p><strong>You Spend:</strong> @LOSS[1 fp]</p></li><li><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.legacy.Item.Eq1PRsGKfDdo5ZDV]{Effect: Vanish}</p></li></ul>",
+    "description": "<p><strong>Requirements:</strong> you must have mastered the <strong>Rogue</strong> Class.</p><hr /><p><span>When you hit one or more creatures with an attack, you may spend 1 Fabula Point. If you do, each of those creatures will be unable to perform any action that requires them to be able to see you until the start of your next turn.</span></p><hr /><p><strong>You Gain:</strong> @EFFECT[Compendium.projectfu-legacy-compendium.legacy.Item.Eq1PRsGKfDdo5ZDV]</p>",
     "showTitleCard": {
       "value": false
     },
@@ -30,7 +30,20 @@
       "max": 6,
       "enabled": false
     },
-    "fuid": "vanish-legacy"
+    "fuid": "vanish-legacy",
+    "damage": {
+      "onRoll": "",
+      "onApply": ""
+    },
+    "effects": {
+      "duration": {
+        "interval": null
+      }
+    },
+    "cost": {
+      "resource": "fp",
+      "amount": "1"
+    }
   },
   "effects": [],
   "folder": "nlJCekCcdyb2RFPe",
@@ -53,8 +66,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768876098041,
-    "modifiedTime": 1771473401327,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782362369318,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "DQ8OA1AlYVAa30HL",
   "sort": 18750,

@@ -5,14 +5,14 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When another creature you can see loses Hit Points while in Crisis, if they are not undead, you gain <strong>1 Grave Point</strong>. You may never have more than <strong>【SL + 1】</strong> Grave Points.</p><p>When you are reduced to 0 Hit Points, you <strong>lose all Grave Points</strong>; then, if you lost at least 1 Grave Point this way and this is the <strong>first time</strong> you are reduced to 0 HP during this scene, you do not <strong>Surrender</strong> nor <strong>Sacrifice</strong> yourself: instead, you recover an amount of HP equal to <strong>【SL, multiplied by the amount of Grave Points you lost this way】</strong> .</p><hr /><ul><li><p><strong>You Recover:</strong> @GAIN[(@item.level.value)+(@item.rp.current) hp]{SL × Lost Grave Points HP}</p></li></ul>",
+    "description": "<p>When another creature you can see loses Hit Points while in Crisis, if they are not undead, you gain <strong>1 Grave Point</strong>. You may never have more than <strong>【SL + 1】</strong> Grave Points.</p><p>When you are reduced to 0 Hit Points, you <strong>lose all Grave Points</strong>; then, if you lost at least 1 Grave Point this way and this is the <strong>first time</strong> you are reduced to 0 HP during this scene, you do not <strong>Surrender</strong> nor <strong>Sacrifice</strong> yourself: instead, you recover an amount of HP equal to <strong>【SL, multiplied by the amount of Grave Points you lost this way】</strong> .</p><hr /><p><strong>You Recover:</strong> @GAIN[(@item.level.value)+(@item.rp.current) hp]{SL × Grave Points HP}</p>",
     "level": {
       "value": 1,
       "max": 5,
       "min": 0
     },
     "class": {
-      "value": "necromancer"
+      "value": "necromancer-legacy"
     },
     "useWeapon": {
       "accuracy": false,
@@ -57,7 +57,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -65,13 +68,90 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
   },
   "img": "systems/projectfu/styles/static/compendium/classes/necromancer/beyond_the_realms_of_death.png",
-  "effects": [],
+  "effects": [
+    {
+      "name": "Beyond The Realms Of Death [Legacy]",
+      "img": "systems/projectfu/styles/static/compendium/classes/necromancer/beyond_the_realms_of_death.png",
+      "origin": "Compendium.projectfu-legacy-compendium.legacy.Item.EzqS93ltwsmTqBLM",
+      "system": {
+        "duration": {
+          "event": "none",
+          "interval": 1,
+          "tracking": "self",
+          "remaining": 1
+        },
+        "type": "default",
+        "predicate": {
+          "crisisInteraction": "none"
+        },
+        "rules": {
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
+        }
+      },
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "disabled": false,
+      "_id": "D9PWbajjbKa4Ykma",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.rp.max",
+          "mode": 5,
+          "value": "$sl+1",
+          "priority": null
+        }
+      ],
+      "description": "<p>You may never have more than <strong>【SL + 1】</strong> Grave Points.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "projectfu": {
+          "Source": {
+            "name": "Beyond The Realms Of Death [Legacy]",
+            "actorUuid": null,
+            "itemUuid": "Compendium.projectfu-legacy-compendium.legacy.Item.EzqS93ltwsmTqBLM",
+            "effectUuid": null,
+            "fuid": "beyond-the-realms-of-death"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "projectfu",
+        "systemVersion": "#{VERSION}#",
+        "createdTime": 1782281798143,
+        "modifiedTime": 1782281995101,
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa"
+      },
+      "_key": "!items.effects!EzqS93ltwsmTqBLM.D9PWbajjbKa4Ykma"
+    }
+  ],
   "flags": {
     "core": {},
     "cf": {},
@@ -87,8 +167,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1769024144962,
-    "modifiedTime": 1769024234414,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284030707,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "folder": "8lW5YyWxQ1X625X8",
   "ownership": {

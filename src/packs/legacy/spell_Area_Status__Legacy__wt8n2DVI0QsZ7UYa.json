@@ -6,7 +6,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>Choose any number of creatures you can see: each of them suffers <strong>(choose one: dazed, shaken, slow, weak)</strong>.</p><hr /><ul><li><p><strong>Targets Suffers:</strong> @EFFECT[dazed], @EFFECT[shaken], @EFFECT[slow], or @EFFECT[weak]</p></li></ul>",
+    "description": "<p>Choose any number of creatures you can see: each of them suffers <strong>(choose one: dazed, shaken, slow, weak)</strong>.</p><hr /><p><strong>Targets Suffers:</strong> @EFFECT[dazed], @EFFECT[shaken], @EFFECT[slow], or @EFFECT[weak]</p>",
     "class": {
       "value": "NPC"
     },
@@ -112,7 +112,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "targeting": {
       "rule": "special",
@@ -136,8 +139,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768876455670,
-    "modifiedTime": 1768876474366,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782362821456,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "folder": "6g57AlShFABqWx0Q",
   "ownership": {

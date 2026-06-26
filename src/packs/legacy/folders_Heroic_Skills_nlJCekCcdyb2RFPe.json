@@ -2,7 +2,7 @@
   "type": "Item",
   "folder": null,
   "name": "Heroic Skills",
-  "color": null,
+  "color": "#344943",
   "sorting": "a",
   "_id": "nlJCekCcdyb2RFPe",
   "description": "",
@@ -16,8 +16,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768852992764,
-    "modifiedTime": 1768852992764,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782283361916,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_key": "!folders!nlJCekCcdyb2RFPe"
 }

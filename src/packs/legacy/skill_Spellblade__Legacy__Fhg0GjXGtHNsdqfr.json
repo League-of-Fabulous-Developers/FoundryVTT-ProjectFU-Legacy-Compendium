@@ -1,5 +1,5 @@
 {
-  "folder": "IiIlJG6pPTDD4KFq",
+  "folder": "NgkHzUUDQth731iS",
   "name": "Spellblade [Legacy]",
   "type": "skill",
   "img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_spellblade.png",
@@ -7,7 +7,7 @@
     "summary": {
       "value": ""
     },
-    "description": "<p>When you cast an offensive ( @ICON[offensive] ) spell targeting <strong>a single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】 or lower</strong> and you have one or more <strong>bow, brawling, dagger, flail, spear, or sword weapons</strong> equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon's Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】 + 1</strong> instead of <strong>【INS + WLP】</strong>.</p>",
+    "description": "<p>When you cast an offensive (@ICON[offensive]) spell targeting <strong>a single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 10】 or lower</strong> and you have one or more <strong>bow, brawling, dagger, flail, spear, or sword weapons</strong> equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon's Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a <strong>bronze sword</strong> (<strong>Core Rulebook</strong>, page <strong>131</strong>) will be <strong>【DEX + MIG】 + 1</strong> instead of <strong>【INS + WLP】</strong>.</p>",
     "showTitleCard": {
       "value": false
     },
@@ -59,7 +59,10 @@
       "type": "hp"
     },
     "effects": {
-      "entries": []
+      "entries": [],
+      "duration": {
+        "interval": null
+      }
     },
     "cost": {
       "resource": "mp",
@@ -67,7 +70,7 @@
       "perTarget": false
     },
     "targeting": {
-      "rule": "special",
+      "rule": "self",
       "max": 0
     },
     "traits": []
@@ -85,7 +88,7 @@
         "startTurn": null
       },
       "disabled": false,
-      "name": "Spellblade",
+      "name": "Spellblade [Legacy]",
       "_id": "DhBhEANF8jRMaBo4",
       "type": "base",
       "system": {
@@ -100,7 +103,20 @@
           "remaining": 1
         },
         "rules": {
-          "elements": {}
+          "elements": {},
+          "progress": {
+            "enabled": false,
+            "id": "",
+            "name": "",
+            "current": 0,
+            "max": 6,
+            "style": "bar"
+          },
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
         }
       },
       "changes": [
@@ -125,7 +141,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782284527347
       },
       "_key": "!items.effects!Fhg0GjXGtHNsdqfr.DhBhEANF8jRMaBo4"
     }
@@ -150,10 +167,10 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768576121590,
-    "modifiedTime": 1768620191779,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284516243,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "Fhg0GjXGtHNsdqfr",
-  "sort": 1100000,
+  "sort": 200000,
   "_key": "!items!Fhg0GjXGtHNsdqfr"
 }

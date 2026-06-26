@@ -1,5 +1,5 @@
 {
-  "folder": "rFNLH1qDltOQIbZn",
+  "folder": "0ctIZdUuEF6KYCDH",
   "name": "Effect: Mirror [Legacy]",
   "type": "effect",
   "img": "systems/projectfu/styles/static/compendium/classes/entropist/spells/effects/effect_mirror.png",
@@ -23,7 +23,7 @@
         "startTurn": null
       },
       "disabled": false,
-      "name": "Effect: Mirror",
+      "name": "Mirror [Legacy]",
       "_id": "5AM5DRlt9st1DfDo",
       "type": "base",
       "system": {
@@ -44,13 +44,19 @@
             "current": 0,
             "step": 1,
             "max": 6,
-            "enabled": false
+            "enabled": false,
+            "style": "bar"
           },
-          "elements": {}
+          "elements": {},
+          "stacking": {
+            "progress": false,
+            "duration": false,
+            "increment": 1
+          }
         }
       },
       "changes": [],
-      "description": "<p>You twist the laws of magic. Until this spell ends, if an offensive ( @ICON[offensive] ) spell is cast on the target, the creature who cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>",
+      "description": "<p>You twist the laws of magic. Until this spell ends, if an offensive (@ICON[offensive]) spell is cast on the target, the creature who cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>",
       "origin": null,
       "tint": "#ffffff",
       "transfer": true,
@@ -64,7 +70,8 @@
         "coreVersion": "13.351",
         "systemId": "projectfu",
         "systemVersion": "#{VERSION}#",
-        "lastModifiedBy": null
+        "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+        "modifiedTime": 1782360755733
       },
       "_key": "!items.effects!cyT39HJqhnif47Wc.5AM5DRlt9st1DfDo"
     }
@@ -83,8 +90,8 @@
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
     "createdTime": 1768579355309,
-    "modifiedTime": 1771473190519,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "modifiedTime": 1782284806723,
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa"
   },
   "_id": "cyT39HJqhnif47Wc",
   "sort": 200000,

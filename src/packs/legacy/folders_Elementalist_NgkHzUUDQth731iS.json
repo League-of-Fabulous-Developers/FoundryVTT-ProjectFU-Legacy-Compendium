@@ -1,10 +1,10 @@
 {
   "type": "Item",
-  "folder": null,
-  "name": "Spells",
-  "color": null,
+  "folder": "rPrp9QRfOtEloqMP",
+  "name": "Elementalist",
+  "color": "#1050d1",
   "sorting": "a",
-  "_id": "rFNLH1qDltOQIbZn",
+  "_id": "NgkHzUUDQth731iS",
   "description": "",
   "sort": 0,
   "flags": {},
@@ -15,9 +15,8 @@
     "coreVersion": "13.351",
     "systemId": "projectfu",
     "systemVersion": "#{VERSION}#",
-    "createdTime": 1768577879028,
-    "modifiedTime": 1768577879028,
-    "lastModifiedBy": "bgUzjEHd80A79gwp"
+    "lastModifiedBy": "mA8SNY2rY4X5tOHa",
+    "modifiedTime": 1782283485116
   },
-  "_key": "!folders!rFNLH1qDltOQIbZn"
+  "_key": "!folders!NgkHzUUDQth731iS"
 }
